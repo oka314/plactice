@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100vh;
+  background-color: #f0e8e4;
+  &__header{
+    height: 65px;
+    width: 100vw;
+    background-color: #97d1e4;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    padding: 0  250px;
+    line-height: 65px;
+    .header-left{
+      width: 65%;
+      font-size: 30px;
+      color: black;
+    }
+    .header-right {
+      display: flex;
+      color:#473838 ;
+      font-size: 16px;
+      &__name{
+        margin-right: 35px;
+      }
+    }
+  }
+  &__chat{
+    padding: 85px 250px 0;
+    .chat-top {
+      height: 300px;
+      background-color: white;
+      margin: 0 auto;
+      box-shadow: 1px 1px 1px 1px gray;
+      .chat-box{
+        border: 1px solid white;
+      }
+    } 
+  }
+}
